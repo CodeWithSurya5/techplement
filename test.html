@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="test.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+    <div>
+        <h1 class="heading">Weather Dashboard</h1>
+        <div class="container">
+            <div class="title">
+                <p>Enter a City Name</p>
+            </div> 
+            <div class="input">
+                <input type="text" id="location-input" placeholder="E.g., New York, London...">
+                <input type="button" value="Search" id="btn">
+            </div>       
+            <div class="info">
+                <img src="cloud.png" id="icon" >
+                <p class="temp">Temparature: <span id="temp-value">0</span>°C</p>
+                <p class="temp">Humidity: <span id="humi-value">0</span>%</p>
+                <p class="temp">Wind Speed: <span id="speed-value">0</span>M/S</p>
+                <p id="weather-desc">Cloudy</p>
+                <h1 id="location">City Name</h1>
+            </div>
+        </div>
+    </div>
+    <script src="test.js"></script>    
+</body>
+</html>
